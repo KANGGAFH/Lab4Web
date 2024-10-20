@@ -10,7 +10,7 @@
 
 1. Buat folder baru kemudian di dalamnya tambahkan file **home.html** dan file css **style.css**
    ![Screenshot_5](https://github.com/user-attachments/assets/a1627f00-0b77-4855-ad87-47a205bae195)<br>
-   *lalu tambahkan kode berikut*
+   *lalu tambahkan kode berikut*<br>
    ![Screenshot_7](https://github.com/user-attachments/assets/e2d6b8ab-e767-42d2-a267-199ba1df1c43) <br>
    Kode HTML ini adalah dasar dari sebuah halaman web dengan elemen-elemen tata letak sederhana.
    - header, berfungsi untuk menampilkan konten di bagian atas halaman, seperti judul atau logo.
@@ -38,27 +38,27 @@
   ![Screenshot_13](https://github.com/user-attachments/assets/a70d0497-5319-4ac1-be45-6f82f9b68654)<br>
   ![Screenshot_14](https://github.com/user-attachments/assets/dcecd27c-6f1f-4cc9-a1aa-e521626a6337)
 
-4. Mengatur layout main dan sidebar, dengan CSS float
+4. Mengatur layout main dan sidebar, dengan CSS float<br>
    ![Screenshot_29](https://github.com/user-attachments/assets/3b376227-adc5-456a-8f50-0f6dc096fc8c)<br>
    #main dan #sidebar menggunakan properti float: left, yang berarti kedua elemen ini akan saling berdampingan di sebelah kiri secara horizontal, dengan konten utama lebih lebar dibandingkan dengan sidebar. kemudian menambahkan sebuah elemen aside dengan ID sidebar yang berisi dua widget atau kotak informasi. berikut kodenya,<br>
    ![Screenshot_15](https://github.com/user-attachments/assets/3e344735-73ab-4385-b178-f7750f823eaa)<br>
-   elemen aside ini sering digunakan untuk menampilkan konten tambahan atau sekunder yang mendampingi konten utama di halaman web, seperti tautan, teks tambahan, atau widget lainnya. selanjutnya menambahkan CSS,
-   ![Screenshot_30](https://github.com/user-attachments/assets/c2ab7271-10c8-4772-9195-ccb1484d4a15)
+   elemen aside ini sering digunakan untuk menampilkan konten tambahan atau sekunder yang mendampingi konten utama di halaman web, seperti tautan, teks tambahan, atau widget lainnya. selanjutnya menambahkan CSS,<br>
+   ![Screenshot_30](https://github.com/user-attachments/assets/c2ab7271-10c8-4772-9195-ccb1484d4a15)<br>
    ![Screenshot_31](https://github.com/user-attachments/assets/57a02cf3-dd24-4b16-b96f-c936c8ed5483)<br>
    Kode CSS ini mengatur tampilan untuk elemen widget yang ada di sidebar. beriku hasilnya,<br>
    ![Screenshot_19](https://github.com/user-attachments/assets/2b5a22b3-38af-4f02-a018-d36e64ce8655)
 
-5. Menambahkan CSS untuk mengatur tampilan footer, berikut kode CSS nya,
+5. Menambahkan CSS untuk mengatur tampilan footer, berikut kode CSS nya,<br>
    ![Screenshot_20](https://github.com/user-attachments/assets/35d1240b-66ce-4810-bd2d-615a29cf9bd5)<br>
    kode ini menciptakan tampilan footer yang sederhana namun bersih dan agar terlihat profesional, cocok untuk desain halaman web yang modern.<br>
    ![Screenshot_21](https://github.com/user-attachments/assets/74ecfbfc-fb55-4f27-8fb5-b5776960e49e)
 
-6.Menambahkan elemen lainnya dalam main content. berikut kodenya,
+6.Menambahkan elemen lainnya dalam main content. berikut kodenya,<br>
   ![Screenshot_23](https://github.com/user-attachments/assets/eb0977cc-5b6a-44e0-be85-55d2104ac380)<br>
-  Kode di atas mendefinisikan sebuah bagian dari halaman web di dalam elemen <section> dengan ID main, yang menampilkan tiga kotak konten (box) di dalam baris yang sama. Setiap kotak berisi gambar, judul, paragraf teks, dan sebuah tombol untuk detail lebih lanjut. selanjutnya tambahkan kode CSS nya,
+  Kode di atas mendefinisikan sebuah bagian dari halaman web di dalam elemen <section> dengan ID main, yang menampilkan tiga kotak konten (box) di dalam baris yang sama. Setiap kotak berisi gambar, judul, paragraf teks, dan sebuah tombol untuk detail lebih lanjut. selanjutnya tambahkan kode CSS nya,<br>
   ![Screenshot_24](https://github.com/user-attachments/assets/4eaa0910-68d7-4f46-bd7b-d99c033effe2)<br>
   ![Screenshot_25](https://github.com/user-attachments/assets/d66a4450-b160-4b99-b49c-5bd1c2dbd5e7)<br>
-  Kode ini digunakan untuk menata kotak konten (.box) dalam layout grid dengan tiga kolom yang di-float sejajar dalam satu baris. Setiap kotak memiliki gambar berbentuk lingkaran, judul, teks paragraf, dan elemen lain yang ditata dengan jarak yang baik dan terpusat. Teknik clearfix digunakan untuk memastikan baris bekerja dengan baik meskipun ada elemen yang di-float. berikut hasilnya,
+  Kode ini digunakan untuk menata kotak konten (.box) dalam layout grid dengan tiga kolom yang di-float sejajar dalam satu baris. Setiap kotak memiliki gambar berbentuk lingkaran, judul, teks paragraf, dan elemen lain yang ditata dengan jarak yang baik dan terpusat. Teknik clearfix digunakan untuk memastikan baris bekerja dengan baik meskipun ada elemen yang di-float. berikut hasilnya,<br>
   ![Screenshot_22](https://github.com/user-attachments/assets/3b248b4f-78df-482e-9d76-04471ff9e731)
 
 7.Selanjutnya menambahkan konten artikel <br>
@@ -68,7 +68,7 @@
   -Garis horizontal dengan kelas divider digunakan untuk memisahkan konten antarartikel, memberikan pemisahan visual yang jelas.<br>
   *kemudian tambahkan CSS*<br>
   ![Screenshot_27](https://github.com/user-attachments/assets/b8b40bfa-c6bd-44d5-a2cf-b49ed5635286)<br>
-  Gaya .divider digunakan untuk membuat garis pemisah yang bersih dan sederhana dengan jarak yang cukup antar konten. sedangkan Gaya .entry dan elemen-elemen di dalamnya (seperti heading, paragraf, dan gambar) diatur agar konten artikel terlihat terstruktur dan mudah dibaca. Gambar dalam artikel diatur agar bisa mengapung ke kiri atau kanan, memberikan fleksibilitas dalam tata letak konten. berikut hasilnya,
+  Gaya .divider digunakan untuk membuat garis pemisah yang bersih dan sederhana dengan jarak yang cukup antar konten. sedangkan Gaya .entry dan elemen-elemen di dalamnya (seperti heading, paragraf, dan gambar) diatur agar konten artikel terlihat terstruktur dan mudah dibaca. Gambar dalam artikel diatur agar bisa mengapung ke kiri atau kanan, memberikan fleksibilitas dalam tata letak konten. berikut hasilnya,<br>
   ![Screenshot_28](https://github.com/user-attachments/assets/2856c3ce-01c6-451a-b69f-2b3e40354ee3)
 
 
