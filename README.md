@@ -63,7 +63,7 @@
 
 7.Selanjutnya menambahkan konten artikel <br>
   ![Screenshot_26](https://github.com/user-attachments/assets/c25dcd3a-983a-4970-a613-0a98655e6696)<br>
-  -Kode ini menampilkan dua artikel dengan judul, gambar, dan teks deskripsi.
+  Kode ini menampilkan dua artikel dengan judul, gambar, dan teks deskripsi.
   -Artikel pertama memiliki gambar yang ditampilkan secara default (kemungkinan besar di atas teks), sedangkan artikel kedua menggunakan kelas right-img untuk menampilkan gambar di sebelah kanan teks.
   -Garis horizontal dengan kelas divider digunakan untuk memisahkan konten antarartikel, memberikan pemisahan visual yang jelas.<br>
   *kemudian tambahkan CSS*<br>
